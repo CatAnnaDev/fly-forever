@@ -1,0 +1,19 @@
+{
+    "files": {
+        "index.js": "87cb08cfe174264107aee1f6e50d567e7443541b775d61c632e03240858048c0",
+        "mod.json": "2bc3769ca34cbb60fe316703f3da4f9996e115bbb2d2eb6c6f9bdbb9b1bd4dc3",
+        "module.json": "4adf571ec4189dea4301ecf513c9f48d0606600ce3a6f321aa7fb6848e760a04"
+    },
+    "defs": {
+        "C_PLAYER_FLYING_LOCATION": 4,
+        "C_PLAYER_LOCATION": 5,
+        "C_START_SKILL": 7,
+        "S_CANT_FLY_ANYMORE": "raw",
+        "S_LOGIN": 12,
+        "S_MOUNT_VEHICLE": 2,
+        "S_PLAYER_CHANGE_FLIGHT_ENERGY": 1,
+        "S_SKILL_CATEGORY": 3,
+        "S_UNMOUNT_VEHICLE": 2,
+        "S_USER_STATUS": 2
+    }
+}
