@@ -14,7 +14,7 @@ module.exports = function FlyForever(mod) {
 		serverMounted = false,
 		remountTimer = null
 
-	mod.hook('S_LOGIN', 12, event => { ({gameId} = event) })
+	mod.hook('S_LOGIN', mod.patchVersion < 81 ? 12 : 13, event => { ({gameId} = event) })
 
 	mod.hook('S_CANT_FLY_ANYMORE', 'raw', () => false)
 	mod.hook('S_PLAYER_CHANGE_FLIGHT_ENERGY', 1, event => { outOfEnergy = event.energy === 0 })
