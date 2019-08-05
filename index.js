@@ -1,5 +1,5 @@
 
-module.exports = function Fly(mod) {
+module.exports = function fly(mod) {
 	const CATEGORY_GLOBAL = 9999
 	const SKILL_FLYING_DISMOUNT = 65000001
 	
