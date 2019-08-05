@@ -3,6 +3,6 @@
 	"update": "github:tera-mods/fly-forever",
 	"conflicts": ["fly-more"],
 	"title": "Fly Forever",
-	"authors": ["Pinkie Pie", "Saegusa"],
-	"description": "Removes P2W flight stamina restriction."
+	"authors": ["PsykoDev"],
+	"description": ""
 }
