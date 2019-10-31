@@ -3,7 +3,7 @@ module.exports = function fly(mod) {
 	const CATEGORY_GLOBAL = 9999
 	const SKILL_FLYING_DISMOUNT = 65000001
 	
-	let gameId = -1n,
+	let gameId = -0n,
 		location = null,
 		outOfEnergy = false,
 		dismountByUser = false,
