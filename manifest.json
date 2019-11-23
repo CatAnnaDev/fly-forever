@@ -3,8 +3,8 @@
         "index.js": "061c7b91279d5334731a399756062635fbec3adf433381151340cbdc0b6e7c39",
 		"config.json": "ab9a62707860362dc6b0b94089c1796cda45ebdce732c938648baf32a41ba64b",
         "module.json": "df980c4673499e48810dd15f87f036ec6194bca2cbb04876567fc36932847fa2",
-		"settings.js": "6a6962a370815b07bff77b0f141e61aa630ddb695a73bd8f0024152ab779bb5b"
-		"submodules/Fly.js": "f8b3a5d60ef3e3f6eb3fb25919d43692bb04b236175a225f9ed7c095dfc7beba"
+		"settings.js": "6a6962a370815b07bff77b0f141e61aa630ddb695a73bd8f0024152ab779bb5b",
+		"submodules/Fly.js": "f8b3a5d60ef3e3f6eb3fb25919d43692bb04b236175a225f9ed7c095dfc7beba",
 		"submodules/Exo.js": "42e19c316bd6a10705b675d7410acbb1373d52e0c1f3975fb0f74727efdafc86"
     },
 }
