@@ -1,13 +1,13 @@
 {
     "disableAutoUpdate": false,
-    "name": "fly-forever",
+    "name": "FF",
     "options": {
-        "niceName": "fly-forever",
-        "guiName": "fly-forever"
+        "niceName": "FF",
+        "guiName": "FF"
     },
     "author": "PsykoDev",
     "description": "",
     "servers": ["https://raw.githubusercontent.com/PsykoDev/fly-forever/master/"],
     "supportUrl": "https://github.com/PsykoDev/fly-forever/blob/master/README.md",
-    "version": "83.05"
+    "version": "87.05"
 }

@@ -1,18 +1,10 @@
 {
     "files": {
-        "index.js": "94331696653edbc2a7f7cc52ca0cc14f351df6f5fa735e29b8d021cec1297f88",
-		"mod.json": "7b5aa6247951400a3dcabdab034f3683f2c0bd6a67b3a6ee7a00ec8ce53d2f5f",
-        "module.json": "d6307f86efc6eff74feb00061f263d90377a61109bbf0ff66d56cec45f8b0a4e"
+        "index.js": "061c7b91279d5334731a399756062635fbec3adf433381151340cbdc0b6e7c39",
+		"config.json": "ab9a62707860362dc6b0b94089c1796cda45ebdce732c938648baf32a41ba64b",
+        "module.json": "df980c4673499e48810dd15f87f036ec6194bca2cbb04876567fc36932847fa2",
+		"settings.js": "6a6962a370815b07bff77b0f141e61aa630ddb695a73bd8f0024152ab779bb5b"
+		"submodules/Fly.js": "f8b3a5d60ef3e3f6eb3fb25919d43692bb04b236175a225f9ed7c095dfc7beba"
+		"submodules/Exo.js": "42e19c316bd6a10705b675d7410acbb1373d52e0c1f3975fb0f74727efdafc86"
     },
-    "defs": {
-        "C_PLAYER_FLYING_LOCATION": 4,
-        "C_PLAYER_LOCATION": 5,
-        "C_START_SKILL": 7,
-        "S_CANT_FLY_ANYMORE": 1,
-        "S_MOUNT_VEHICLE": 2,
-        "S_PLAYER_CHANGE_FLIGHT_ENERGY": 1,
-        "S_SKILL_CATEGORY": 3,
-        "S_UNMOUNT_VEHICLE": 2,
-        "S_USER_STATUS": 3
-    }
 }
