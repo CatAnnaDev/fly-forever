@@ -1,8 +1,0 @@
-{
-	"name": "fly-forever",
-	"update": "github:tera-mods/fly-forever",
-	"conflicts": ["fly-more"],
-	"title": "Fly Forever",
-	"authors": ["PsykoDev"],
-	"description": ""
-}
