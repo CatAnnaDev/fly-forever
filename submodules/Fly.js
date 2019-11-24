@@ -91,7 +91,7 @@
 			  }
 		  })
 		  
-		  this.parent = function tryRemount() {
+		 	function tryRemount() {
 			  if (!mountDisabled && !inCombat) {
 				this.parent.m.send('C_START_SKILL', 7, {
 					  skill: mountSkill,

@@ -4,7 +4,7 @@
 		"config.json": "ab9a62707860362dc6b0b94089c1796cda45ebdce732c938648baf32a41ba64b",
         "module.json": "3fcf9a5eeab6c79417a9cec2778874d75c536ed8febdb574904c910589351e6c",
 		"settings.js": "6a6962a370815b07bff77b0f141e61aa630ddb695a73bd8f0024152ab779bb5b",
-		"submodules/Fly.js": "a4ab1b112a7d12263bf7d4e8ab7d627030b3f6d62eaf5618c7f983cb780e0f3f",
+		"submodules/Fly.js": "bfcf2da83ae64daceaff1bbddcc73bcdb2061371db60211c8468962090c3d050",
 		"submodules/Exo.js": "42e19c316bd6a10705b675d7410acbb1373d52e0c1f3975fb0f74727efdafc86"
     },
 		"defs": {
