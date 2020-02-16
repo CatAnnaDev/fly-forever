@@ -6,8 +6,8 @@
         "guiName": "fly-forever"
     },
     "author": "PsykoDev",
-    "description": "",
+    "description": "Infinite fly anywhere you want + no fall damage",
     "servers": ["https://raw.githubusercontent.com/PsykoDev/fly-forever/master/"],
     "supportUrl": "https://github.com/PsykoDev/fly-forever/blob/master/README.md",
-    "version": "88.4"
+    "version": "*90.2"
 }

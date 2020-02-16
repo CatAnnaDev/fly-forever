@@ -1,8 +1,8 @@
 {
 	"name": "fly-forever",
-	"update": "github:tera-mods/fly-forever",
+	"update": "github:PsykoDev/fly-forever",
 	"conflicts": ["fly-more"],
 	"title": "Fly Forever",
 	"authors": ["PsykoDev"],
-	"description": ""
+	"description": "Infinite fly anywhere you want + no fall damage"
 }

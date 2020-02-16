@@ -2,6 +2,7 @@
 module.exports = function fly(mod) {
 	const CATEGORY_GLOBAL = 9999
 	const SKILL_FLYING_DISMOUNT = 65000001
+	var currZone;
 	
 	let gameId = -0n,
 		location = null,
@@ -26,6 +27,10 @@ module.exports = function fly(mod) {
 			return true
 		}
 	})
+
+	mod.hook('S_LOAD_TOPO', 3, e=>{
+		currZone = e.zone;
+	});
 	
 	mod.hook('C_PLAYER_LOCATION', 5, (event) => {
 		location = {
@@ -33,6 +38,7 @@ module.exports = function fly(mod) {
 			pos: event.loc,
 			dir: event.w
 		}
+		([2, 10].includes(e.type) && (currZone < 10 || currZone > 200));
 	})
 	
 	mod.hook('C_START_SKILL', 7, (event) => {
