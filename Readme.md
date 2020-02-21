@@ -1,4 +1,4 @@
-S_CANT_FLY_ANYMORE = 64826 EU 88.4 <br>
+S_CANT_FLY_ANYMORE = 61133 EU 90.2 <br>
 S_CANT_FLY_ANYMORE = 60228 NA 90.2
 
 Last nodejs is nedded 
