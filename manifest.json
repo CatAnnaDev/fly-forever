@@ -1,21 +1,20 @@
 {
-    "files": {
-        "index.js": "482fdd1d95a627831d1688bdab39e20d5b898520109bbd7d571e9d81db57211b",
-		"mod.json": "092f2ec36df904f5d314d89c96b325b71447d99e2229536df627335714a9a6fb",
-        "module.json": "696f8ead0870ccffc27f353018d6b7417aab993155980c8854e9ae3296eb0100"
-    },
-    "defs": {
-        "C_PLAYER_FLYING_LOCATION": 4,
-        "C_PLAYER_LOCATION": 5,
-        "C_START_SKILL": 7,
-        "S_CANT_FLY_ANYMORE": 1,
-        "S_MOUNT_VEHICLE": 2,
-        "S_PLAYER_CHANGE_FLIGHT_ENERGY": 1,
-        "S_SKILL_CATEGORY": 3,
-        "S_UNMOUNT_VEHICLE": 2,
-        "S_USER_STATUS": 3,
-        "S_ABNORMALITY_BEGIN": 4,
-        "S_ABNORMALITY_END": 1,
-		"C_UPDATE_REACTION_POS": 1
-    }
+  "files": {
+    "index.js": "9f5e0364754817f92031317b69a5d5d8ae3a6a78a06c61ef5bae2416063daa9d",
+    "mod.json": "092f2ec36df904f5d314d89c96b325b71447d99e2229536df627335714a9a6fb",
+    "module.json": "dfa491f14640e81a3345d62be88ca066fab39e260bd2ef1580467646216c16af"
+  },
+  "defs": {
+    "C_PLAYER_FLYING_LOCATION": 4,
+    "C_PLAYER_LOCATION": 5,
+    "C_START_SKILL": 7,
+    "C_UPDATE_REACTION_POS": 1,
+    "S_CANT_FLY_ANYMORE": 1,
+    "S_LOAD_TOPO": 3,
+    "S_MOUNT_VEHICLE": 2,
+    "S_PLAYER_CHANGE_FLIGHT_ENERGY": 1,
+    "S_SKILL_CATEGORY": 3,
+    "S_UNMOUNT_VEHICLE": 2,
+    "S_USER_STATUS": 3
+  }
 }

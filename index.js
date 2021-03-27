@@ -93,7 +93,7 @@ module.exports = function fly(mod) {
       mountSkill = -1
     } else {
       clearTimeout(remountTimer)
-      remountTimer = setTimeout(tryRemount, 60)
+      remountTimer = setTimeout(tryRemount, 30)
       return false
     }
   })
