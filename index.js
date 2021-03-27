@@ -1,10 +1,15 @@
 /** @format */
 
 module.exports = function fly(mod) {
-  const CATEGORY_GLOBAL = 9999
+  const CATEGORY_GLOBAL = 99999
   const SKILL_FLYING_DISMOUNT = 65000001
   const SKILL_FLYING_MOUNT = 12200271
   var currZone
+  /*
+ category: 13003
+ category: 13009
+ category: 13021
+  */
 
   let gameId = 0n,
     location = null,
@@ -88,7 +93,7 @@ module.exports = function fly(mod) {
       mountSkill = -1
     } else {
       clearTimeout(remountTimer)
-      remountTimer = setTimeout(tryRemount, 45)
+      remountTimer = setTimeout(tryRemount, 60)
       return false
     }
   })
@@ -106,6 +111,10 @@ module.exports = function fly(mod) {
         w: location.dir,
         loc: location.pos,
         unk: true,
+      })
+      mod.send("C_UPDATE_REACTION_POS", 1, {
+        skill: mountSkill,
+        loc: location.pos,
       })
       remountTimer = setTimeout(() => {
         if (!serverMounted) {

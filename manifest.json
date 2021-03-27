@@ -1,6 +1,6 @@
 {
     "files": {
-        "index.js": "9cb492d82b757fa95d92a0e15aeed21080239fc23f7e82e5442e4f7caa6bb1d9",
+        "index.js": "482fdd1d95a627831d1688bdab39e20d5b898520109bbd7d571e9d81db57211b",
 		"mod.json": "092f2ec36df904f5d314d89c96b325b71447d99e2229536df627335714a9a6fb",
         "module.json": "696f8ead0870ccffc27f353018d6b7417aab993155980c8854e9ae3296eb0100"
     },
@@ -15,6 +15,7 @@
         "S_UNMOUNT_VEHICLE": 2,
         "S_USER_STATUS": 3,
         "S_ABNORMALITY_BEGIN": 4,
-        "S_ABNORMALITY_END": 1
+        "S_ABNORMALITY_END": 1,
+		"C_UPDATE_REACTION_POS": 1
     }
 }
